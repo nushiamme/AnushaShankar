@@ -1,12 +1,14 @@
 ## Welcome to my test homepage
 
-You can use the [editor on GitHub](https://github.com/nushiamme/AnushaShankar/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I am a PhD candidate in the department of Ecology and Evolution at Stony Brook University, and am testing out the github website.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Research
 
-### Markdown
+I study hummingbird whole-animal physiological ecology. I use respirometry and isotope methods to measure how much energy hummingbirds spend on different activities, to construct daily energy budgets for different species.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Teaching and mentoring
+
+Something
 
 ```markdown
 Syntax highlighted code block
