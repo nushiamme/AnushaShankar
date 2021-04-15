@@ -1,0 +1,25 @@
+name: "my-website"
+navbar:
+  title: "Your name"
+  left:
+    - text: "About"
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "CV"
+      href: cv.html
+    - text: "People"
+      href: people.html
+    - text: "Grad School Advice"
+      href: gradschool.html
+    - text: "Outreach/Videos"
+      href: outreach_vids.html
+    - text: "Gallery"
+      href: gallery.html
+output_dir: "."
+output:
+  html_document:
+    theme: spacelab
+    highlight: textmate
+    toc: true 
+    toc_float: true 
