@@ -3,19 +3,19 @@ navbar:
   title: "Anusha Shankar"
   left:
     - text: "About"
-      href: _pages/index.html
+      href: index.html
     - text: "Research"
-      href: _pages/research.html
+      href: research.html
     - text: "CV"
-      href: _pages/AnushaShankar_Mar2021_CV.pdf
+      href: AnushaShankar_Mar2021_CV.pdf
     - text: "People"
-      href: _pages/people.html
+      href: people.html
     - text: "Grad School Advice"
-      href: _pages/gradschool.html
+      href: gradschool.html
     - text: "Outreach/Videos"
-      href: _pages/outreach_vids.html
+      href: outreach_vids.html
     - text: "Gallery"
-      href: _pages/gallery.html
+      href: gallery.html
 output_dir: "."
 output:
   html_document:
