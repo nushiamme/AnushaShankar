@@ -7,7 +7,7 @@ output:
     collapsed: false
     smooth_scroll: false
 ---
-<style>
+<style> 
 body {
 text-align: justify}
 </style>
