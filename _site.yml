@@ -21,5 +21,5 @@ output:
   html_document:
     theme: spacelab
     highlight: textmate
-    toc: true 
+    toc: yes 
     toc_float: true 
