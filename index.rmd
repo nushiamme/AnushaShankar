@@ -12,7 +12,8 @@ body {
 text-align: justify}
 </style>
 
-``` {r echo=FALSE, fig.cap = "© Jen Shook/National Geographic", out.width="30%", out.extra='style="float:left; padding:10px"'}
+``` {r echo=FALSE, out.width="30%", out.extra='style="float:left; padding:10px"'}
+ # fig.cap = "© Jen Shook/National Geographic",
 knitr::include_graphics("AShankar_JenShook_crop.jpg")
 ```
 
