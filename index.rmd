@@ -1,11 +1,6 @@
 ---
 title: "Welcome!"
-output:
-  html_document:
-    toc: true
-    toc_float:
-      collapsed: false
-      smooth_scroll: false
+output: html_document
 ---
 <style>
 body {
