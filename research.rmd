@@ -21,11 +21,11 @@ text-align: justify}
 ### Hummingbirds
 
 #### Physiological ecology and energy management
-<video width="400" src="MVI_9555.MOV" type="video/mp4" preload controls>
-</video>
+<!-- <video width="400" src="MVI_9555.MOV" type="video/mp4" preload controls> -->
+<!-- </video> -->
 
-<video width="400" src="MVI_9736.MOV" type="video/mp4" preload controls>
-</video> 
+<!-- <video width="400" src="MVI_9736.MOV" type="video/mp4" preload controls> -->
+<!-- </video>  -->
 
 <!-- ![Purple-bibbed whitetip, ©Anusha Shankar](MVI_9555.MOV)(width=40%) ![Empress brilliant, ©Anusha Shankar](MVI_9736.MOV)(width=40%) -->
 
