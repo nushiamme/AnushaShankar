@@ -3,9 +3,9 @@ title: "Welcome!"
 output:
   html_document:
     toc: true
-    toc_float:
-      collapsed: false
-      smooth_scroll: false
+    toc_float: true
+    collapsed: false
+    smooth_scroll: false
 ---
 <style>
 body {
