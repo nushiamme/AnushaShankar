@@ -1,6 +1,11 @@
 ---
 title: "Research"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
 ---
 <style>
 body {
@@ -13,15 +18,22 @@ text-align: justify}
 
 <br  />
 
-### Seasonal Affective Disorder in Nile grass rats (SAD rats)
-![]()
-If you live someplace which only gets 4 hours of sunlight a day, would you be sad and depressed? A lot of people in temperate regions are in the winter. About 10 million Americans, for instance, suffer from Seasonal Affective Disorder (appropriately, abbreviated as SAD). 9% of Alaskan women are affected, which is partly why it is important for us to understand how this disorder works, and how we can correct it. But common lab rats and mice - that would usually be good animal models for studying such disorders - are active at night. And it does not make sense for us to test the effects of short photoperiods on nocturnal animals. So, instead, we are studying SAD in diurnal (active during the day) Nile grass rats. We are studying how these rats respond to short days in terms of their sleep patterns, carbohydrate consumption (do they binge-eat sugary things when they are depressed?), and changes in their gut microbiome. 
+### Hummingbirds
 
-### Hummingbird physiological ecology and energy management
-![Broad-billed and black-chinned hummingbirds competing]()
+#### Physiological ecology and energy management
+<video width="400" src="MVI_9555.MOV" type="video/mp4" preload controls>
+</video>
+
+<video width="400" src="MVI_9736.MOV" type="video/mp4">
+</video> 
+
+<!-- ![Purple-bibbed whitetip, ©Anusha Shankar](MVI_9555.MOV)(width=40%) ![Empress brilliant, ©Anusha Shankar](MVI_9736.MOV)(width=40%) -->
 
 For my PhD dissertation, I studied how hummingbird manage their energy budgets on a daily basis. By collecting whole-animal physiological data in the field in Ecuador and Arizona, I assessed what energetic strategies free-living hummingbirds use during the day and at night. Hummingbirds are really small. We know that- the smallest hummingbird weighs about the same as a US penny, and the average is the same as a US quarter. Yet, they have among the highest possible metabolic rates of all vertebrates. If we spent energy at the rate they do, we'd have to eat about 300 hamburgers a day to survive! So how do they manage their energy on a daily basis? How do they manage to survive across North and South America? During the day they are endotherms- they maintain a constant body temperature like we humans do. And doing this is energetically expensive. So they eat a lot during the day (~2-3 times their weight in nectar every day). At night, they can use another strategy. They go into torpor and stop doing that costly thing of maintaining their body temperature. They become like ectotherms, (like lizards), lower their body temperature and metabolic rates and save an average of some 82% of their energy in this state. That way, they have enough energy stored overnight to get up and fly to find food in the morning! I measured how much energy and time they spend on different activities every day. I wanted to know how different hummingbird species manage their energy differently. And, for instance, how warming temperatures with climate change could affect how they balance these tight energy budgets. I presented some work from this project at the wonderful Gordon conference on Unifying ecology across scales, at National Geographic, at NAOC 2016, and SICB 2017 and 2018. Here's a 45-minute live hangout with Explorer Classroom I did with National Geographic.
 Part of this work was funded from NASA project with Dr. Catherine Graham and Dr. Don Powers. This is a collaborative project, integrating ideas across physiology, ecology and evolution.
+
+#### Transcriptomics
+For my Rose Postdoctoral Fellowship, I will be investigating hummingbirds’ use of a shallow form of torpor. Mammals can drop their metabolic rate to varying extents—using torpor at various depths—but birds are not known to do the same. Over 40 species of birds are known to use some form of torpor, but each species is thought to have a minimum tolerable torpid body temperature that it will drop to, ambient temperatures permitting. Birds are not described to regulate their body temperature above that minimum in torpor, if ambient temperatures are close to or below their minimum body temperature. Hummingbirds have long been known to use deep torpor (dropping their core body temperature to between 6.5-20C). We discovered hummingbirds are also capable of regulating their body temperature at an intermediate state between that of sleep and deep torpor (surface temperatures ranged between 19.5–29C). The occurrence of shallow torpor in these birds clearly capable of lowering their body temperature further indicates that they are balancing the costs (e.g. sleep deprivation, loss of immune function, predation) and benefits (energy savings) of deep torpor. I think that the existence of these variable torpid states in birds could help us better understand the physiological functions of sleep vs. torpor in birds, vs. mammals. Which physiological and cellular processes are deemed ‘essential’ in sleep vs. torpor? I will employ a transcriptomics approach to answering this question with hummingbirds.
 
 <center>
 A short video interview for National Geographic's TIL (Today I Learned) segment.
@@ -36,27 +48,35 @@ This is work in June 2017 in Arizona, in collaboration with Dr. Don Powers and h
 </center>
 <br />
 
-### Bird genetics and evolution of the Shola habitat
+### Seasonal Affective Disorder
+**in Nile grass rats (SAD rats)**
+![]()
+If you live someplace which only gets 4 hours of sunlight a day, would you be sad and depressed? A lot of people in temperate regions are in the winter. About 10 million Americans, for instance, suffer from Seasonal Affective Disorder (appropriately, abbreviated as SAD). 9% of Alaskan women are affected, which is partly why it is important for us to understand how this disorder works, and how we can correct it. But common lab rats and mice - that would usually be good animal models for studying such disorders - are active at night. And it does not make sense for us to test the effects of short photoperiods on nocturnal animals. So, instead, for my first postdoctoral postion at the University of Alaska Fairbanks, I studied SAD in diurnal (active during the day) Nile grass rats. We studied how these rats respond to short days in terms of their sleep patterns, carbohydrate consumption (do they binge-eat sugary things when they are depressed?), and changes in their gut microbiome. 
+
+### Bird genetics and evolution
+**of the Shola forest, Western Ghats**
 
 [Oriental White-eye (Zosterops palpebrosus)]()
 I spent the summer of 2012 as a field assistant in the Western Ghats of southern India. Working with V.V. Robin and Uma Ramakrishnan,  I learnt how to mist net birds, draw samples, and carry out some genetic work. This project aims at understanding how high elevation bird and plant species might respond to future climate change, by studying how climate affected these species in the past. Some photos of the field season can be found here.
 
-### Hornbill nest site selection
+### Hornbills
+**Nest site selection**
 [Female (Left) and Male Malabar Pied Hornbills]()
 
 I had the wonderful opportunity of studying the Malabar Pied Hornbill (Anthracoceros coronatus) for my Master's thesis in 2011. Under the guidance of Dr. Priya Davidar at Pondicherry University, India, and along with the Applied Environmental Research Foundation, Pune, India, I studied habitat parameters which affected nest site selection in this beautiful bird. I presented this work at SCCS, Bangalore 2011 and at the 6th Biennial International Biogeography Society conference in Miami, FL, January 2013.
 (Note the pale pinkish-white ring around the eye of the female Malabar Pied to the left; the male to the right does not have this ring.)
 
-### Youth Tiger Ambassador with WWF
+### WWF Youth Tiger Ambassador
 [With India's tile on the Tiger Walk, Vladivostok, Russia]()
 In 2010, I had the great opportunity of being one of two Youth Tiger Ambassadors with WWF India, and had the honor of representing India at the Youth Tiger Summit held in Vladivostok, Russia. This summit was held in parallel with a meeting of the Heads of State of tiger range countries. It was aimed at involving the youth of countries with an interest in tiger conservation in spreading awareness in their respective nations. We visited protected areas in the land of the Amur tiger, and drafted a Youth Tiger action plan. You can see more about the experience, and a video (in Russian) of my presentation to Vladimir Putin, among other Heads of State, here.
 
-### Summer research fellowship, IISc
+###  IISc Summer research fellowship
+**Indian Institute of Science**
 [Common Pierrot (Castalius rosimon)]()
 In 2010, as a Summer Research Fellow of the Indian Academy of Sciences, I carried out preliminary observational studies on the vertebrate visitors to Ficus benghalensis (Banyan), and Lepidopteran visitors of Lantana camara with Dr. Rohini Balakrishnan’s lab at the Indian Institute of Science, Bangalore, India. And learnt a lot about butterfly identification in the process.
 
 
-### King Cobra telemetry project
+### King Cobra telemetry
 [King Cobra (Ophiophagus hannah)]()
 I was thrilled to volunteer at the Agumbe Rainforest Research Station on their Long-term King Cobra Telemetry Project in 2010. This was the first telemetry study of any snake in India. These snakes live in highly human-dominated habitats- agricultural matrices interspersed with patches of forest. It is fascinating to see how they navigate this habitat.
 
@@ -69,3 +89,5 @@ In the summer of 2008, I volunteered with the Wildlife Trust of India at Kaziran
 <center>
 ##### Contact: Anusha Shankar  |  Twitter: [\@nushiamme](https://twitter.com/nushiamme)  |  Email: [anusha.shankar@cornell.edu](mailto:anusha.shankar@cornell.edu)
 </center>
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

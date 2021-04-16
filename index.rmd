@@ -1,16 +1,21 @@
 ---
 title: "Welcome!"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
 ---
-
-<div style= "float:left;position: relative">
-![© Jen Shook/National Geographic](AShankar_JenShook_crop.jpg){width="30%"}
-</div>
-
 <style>
 body {
 text-align: justify}
 </style>
+
+``` {r echo=FALSE, out.width="30%", out.extra='style="float:left; padding:10px"'}
+# fig.cap = "© Jen Shook/National Geographic", 
+knitr::include_graphics("AShankar_JenShook_crop.jpg")
+```
 
 I am a [National Geographic](https://www.nationalgeographic.org/find-explorers/anusha-shankar) Explorer and Young Leader, a Lewis and Clark [Field Scholar](https://www.amphilsoc.org/grants/lewis-and-clark-fund-exploration-and-field-research), and am currently a  [Rose Postdoctoral Fellow](https://www.birds.cornell.edu/home/current-postdoctoral-fellows/), studying hummingbirds, with [Dr. Irby Lovette](https://ecologyandevolution.cornell.edu/irby-lovette) and [Dr. Maren Vitousek](https://ecologyandevolution.cornell.edu/maren-vitousek) at the Lab of Ornithology at Cornell University. Until August 2020, I was a Postdoctoral Fellow with [Dr. Cory Williams](http://www.corytwilliams.com/) at the University of Alaska at Fairbanks, where I studied seasonal depression (Seasonal Affective Disorder) in Nile grass rats. I graduated with a PhD in December 2018 from the department of Ecology and Evolution at Stony Brook University, New York where I worked with [Dr. Catherine Graham](https://www.wsl.ch/en/employees/graham.html) and [Dr. Don Powers](http://www.dpowerslab.com/) from George Fox University, studying how hummingbirds budget their energy across a number of sites in Arizona and Ecuador. And before that, I got a Master's from Pondicherry University, India, studying nesting hornbills in the Western Ghats, and a Bachelor's in Zoology and Biotech from Stella Maris College, Chennai, India. I am broadly interested in how animals manage their energetic needs. I love giving talks and communicating science, especially to the public (but also to scientists)! Have a talk idea or request? [Contact me!](mailto:anusha.shankar@cornell.edu)
 
@@ -105,3 +110,5 @@ text-align: justify}
 <center>
 ##### Contact: Anusha Shankar  |  Twitter: [\@nushiamme](https://twitter.com/nushiamme)  |  Email: [anusha.shankar@cornell.edu](mailto:anusha.shankar@cornell.edu) 
 </center>
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>
