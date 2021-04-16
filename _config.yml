@@ -65,7 +65,7 @@ plugins:
 
 author:
   name   : "Anusha Shankar"
-  avatar : "AShankar_JenShook_crop.jpg"
+  avatar : "assets/AShankar_JenShook_crop.jpg"
   bio    : "Integrative physiological ecology. Now learning transcriptomics. Tropical birds; hummingbirds"
   location: "Ithaca, NY, USA"
   links:
