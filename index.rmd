@@ -1,24 +1,16 @@
 ---
 title: "Welcome!"
-output: 
-  html_document:
-  toc: true
-  toc_float: true
-  toc_collapsed: true
-toc_depth: 3
-number_sections: true
-theme: lumen
+output: html_document
 ---
+
+<div style= "float:left;position: relative">
+![© Jen Shook/National Geographic](AShankar_JenShook_crop.jpg){width="30%"}
+</div>
 
 <style>
 body {
 text-align: justify}
 </style>
-
-
-<div style= "float:left;position: relative">
-![© Jen Shook/National Geographic](AShankar_JenShook_crop.jpg){width="30%"}
-</div>
 
 I am a [National Geographic](https://www.nationalgeographic.org/find-explorers/anusha-shankar) Explorer and Young Leader, a Lewis and Clark [Field Scholar](https://www.amphilsoc.org/grants/lewis-and-clark-fund-exploration-and-field-research), and am currently a  [Rose Postdoctoral Fellow](https://www.birds.cornell.edu/home/current-postdoctoral-fellows/), studying hummingbirds, with [Dr. Irby Lovette](https://ecologyandevolution.cornell.edu/irby-lovette) and [Dr. Maren Vitousek](https://ecologyandevolution.cornell.edu/maren-vitousek) at the Lab of Ornithology at Cornell University. Until August 2020, I was a Postdoctoral Fellow with [Dr. Cory Williams](http://www.corytwilliams.com/) at the University of Alaska at Fairbanks, where I studied seasonal depression (Seasonal Affective Disorder) in Nile grass rats. I graduated with a PhD in December 2018 from the department of Ecology and Evolution at Stony Brook University, New York where I worked with [Dr. Catherine Graham](https://www.wsl.ch/en/employees/graham.html) and [Dr. Don Powers](http://www.dpowerslab.com/) from George Fox University, studying how hummingbirds budget their energy across a number of sites in Arizona and Ecuador. And before that, I got a Master's from Pondicherry University, India, studying nesting hornbills in the Western Ghats, and a Bachelor's in Zoology and Biotech from Stella Maris College, Chennai, India. I am broadly interested in how animals manage their energetic needs. I love giving talks and communicating science, especially to the public (but also to scientists)! Have a talk idea or request? [Contact me!](mailto:anusha.shankar@cornell.edu)
 
@@ -28,9 +20,10 @@ Hummingbirds are incredible animals, with among the highest metabolic rates of a
 My interests include: whole-animal physiology, ecology, respirometry, field physiology, doubly labeled water, behavioural ecology, birds, reptiles, coding in R, managing data, producing graphics/videos for the public, photography, grant-writing (love it), giving talks, teaching, and mentoring.
 
 <center>
-### 1.5-minute 'Today I Learned' video about hummingbirds:
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=yKytMZ8G4gA&feature=youtu.be" frameborder="0" allowfullscreen></iframe>
+#### 1.5-minute 'Today I Learned' video about hummingbirds:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yKytMZ8G4gA" frameborder="0" allowfullscreen></iframe>
 </center>
+<br />
 
 **What I want to be when I grow up**: I have a PhD now, and I don't think I will/should ever stop searching for the answer to this question. But- I want to bring people together to solve big problems in animal ecology and conservation, especially in the tropics. Science is my way of making sense of my world using observation and logic, and I would like to share my passion for science with the world. I saw my PhD as one (long-ish) step on a path to learning the tools, methods, teaching and outreach skills to do science and share it with people of all kinds. Getting a peek into organizations like WWF and National Geographic has convinced me that there are many great people creating hope in this sometimes-bleak world. And the key to unleashing this hope is opening people's minds. Turning skeptics of science, slowly and steadily, into believers, involving local communities in conservation, and most importantly, growing children to be observers, doers, and scientists - no matter what profession they choose. People seem most influenced by a few key people in their past- we as scientists need to get better at being those key influencers.
 
@@ -43,12 +36,12 @@ Crowd-funded [project](https://experiment.com/projects/do-hummingbirds-actually-
 
 <div align="center" style="position:fixed">
 
-### We are on the cover of the May 2020 edition of the Journal of Avian Biology!
+#### We were on the cover of the May 2020 edition of the Journal of Avian Biology!
 ##### For our paper on hummingbird torpor.
 Cover image of a green-crowned brilliant: Sean Graesser ([gourmetbiologist](https://www.instagram.com/gourmetbiologist/?hl=en))
 
 <center>
-![](C:\\Users\\nushi\\OneDrive - Cornell University\\Published_papers_AShankar\\JAvBiol_Torpor\\JAV_51_5_Cover.jpg){width="30%"}
+![](JAV_51_5_Cover.jpg){width="30%"}
 
 
 <center>
@@ -108,7 +101,7 @@ text-align: justify}
 * Just got news that I am now a Lewis and Clark Field Scholar, May 2016
 
 * Awarded the University's Mildred and Herbert Weisinger Dissertation Fellowship , Mar 2016
-
+<br />
 <center>
-#### Contact: Anusha Shankar  |  Twitter: [\@nushiamme](https://twitter.com/nushiamme)  |  Email: anusha.shankar<at>cornell.edu 
+##### Contact: Anusha Shankar  |  Twitter: [\@nushiamme](https://twitter.com/nushiamme)  |  Email: [anusha.shankar@cornell.edu](mailto:anusha.shankar@cornell.edu) 
 </center>

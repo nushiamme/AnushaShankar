@@ -1,0 +1,71 @@
+---
+title: "Research"
+output: html_document
+---
+<style>
+body {
+text-align: justify}
+</style>
+
+<br  />
+
+#### You can access my publications on my **[Google Scholar profile](https://scholar.google.com/citations?user=29QnDqMAAAAJ&hl=en)**.
+
+<br  />
+
+### Seasonal Affective Disorder in Nile grass rats (SAD rats)
+![]()
+If you live someplace which only gets 4 hours of sunlight a day, would you be sad and depressed? A lot of people in temperate regions are in the winter. About 10 million Americans, for instance, suffer from Seasonal Affective Disorder (appropriately, abbreviated as SAD). 9% of Alaskan women are affected, which is partly why it is important for us to understand how this disorder works, and how we can correct it. But common lab rats and mice - that would usually be good animal models for studying such disorders - are active at night. And it does not make sense for us to test the effects of short photoperiods on nocturnal animals. So, instead, we are studying SAD in diurnal (active during the day) Nile grass rats. We are studying how these rats respond to short days in terms of their sleep patterns, carbohydrate consumption (do they binge-eat sugary things when they are depressed?), and changes in their gut microbiome. 
+
+### Hummingbird physiological ecology and energy management
+![Broad-billed and black-chinned hummingbirds competing]()
+
+For my PhD dissertation, I studied how hummingbird manage their energy budgets on a daily basis. By collecting whole-animal physiological data in the field in Ecuador and Arizona, I assessed what energetic strategies free-living hummingbirds use during the day and at night. Hummingbirds are really small. We know that- the smallest hummingbird weighs about the same as a US penny, and the average is the same as a US quarter. Yet, they have among the highest possible metabolic rates of all vertebrates. If we spent energy at the rate they do, we'd have to eat about 300 hamburgers a day to survive! So how do they manage their energy on a daily basis? How do they manage to survive across North and South America? During the day they are endotherms- they maintain a constant body temperature like we humans do. And doing this is energetically expensive. So they eat a lot during the day (~2-3 times their weight in nectar every day). At night, they can use another strategy. They go into torpor and stop doing that costly thing of maintaining their body temperature. They become like ectotherms, (like lizards), lower their body temperature and metabolic rates and save an average of some 82% of their energy in this state. That way, they have enough energy stored overnight to get up and fly to find food in the morning! I measured how much energy and time they spend on different activities every day. I wanted to know how different hummingbird species manage their energy differently. And, for instance, how warming temperatures with climate change could affect how they balance these tight energy budgets. I presented some work from this project at the wonderful Gordon conference on Unifying ecology across scales, at National Geographic, at NAOC 2016, and SICB 2017 and 2018. Here's a 45-minute live hangout with Explorer Classroom I did with National Geographic.
+Part of this work was funded from NASA project with Dr. Catherine Graham and Dr. Don Powers. This is a collaborative project, integrating ideas across physiology, ecology and evolution.
+
+<center>
+A short video interview for National Geographic's TIL (Today I Learned) segment.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yKytMZ8G4gA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+An IR or thermal video of a hummingbird asleep, and a hummingbird in torpor. 
+This is work in June 2017 in Arizona, in collaboration with Dr. Don Powers and his lab.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WsxEm0n3lkw" frameborder="0" allowfullscreen></iframe>
+
+</center>
+<br />
+
+### Bird genetics and evolution of the Shola habitat
+
+[Oriental White-eye (Zosterops palpebrosus)]()
+I spent the summer of 2012 as a field assistant in the Western Ghats of southern India. Working with V.V. Robin and Uma Ramakrishnan,  I learnt how to mist net birds, draw samples, and carry out some genetic work. This project aims at understanding how high elevation bird and plant species might respond to future climate change, by studying how climate affected these species in the past. Some photos of the field season can be found here.
+
+### Hornbill nest site selection
+[Female (Left) and Male Malabar Pied Hornbills]()
+
+I had the wonderful opportunity of studying the Malabar Pied Hornbill (Anthracoceros coronatus) for my Master's thesis in 2011. Under the guidance of Dr. Priya Davidar at Pondicherry University, India, and along with the Applied Environmental Research Foundation, Pune, India, I studied habitat parameters which affected nest site selection in this beautiful bird. I presented this work at SCCS, Bangalore 2011 and at the 6th Biennial International Biogeography Society conference in Miami, FL, January 2013.
+(Note the pale pinkish-white ring around the eye of the female Malabar Pied to the left; the male to the right does not have this ring.)
+
+### Youth Tiger Ambassador with WWF
+[With India's tile on the Tiger Walk, Vladivostok, Russia]()
+In 2010, I had the great opportunity of being one of two Youth Tiger Ambassadors with WWF India, and had the honor of representing India at the Youth Tiger Summit held in Vladivostok, Russia. This summit was held in parallel with a meeting of the Heads of State of tiger range countries. It was aimed at involving the youth of countries with an interest in tiger conservation in spreading awareness in their respective nations. We visited protected areas in the land of the Amur tiger, and drafted a Youth Tiger action plan. You can see more about the experience, and a video (in Russian) of my presentation to Vladimir Putin, among other Heads of State, here.
+
+### Summer research fellowship, IISc
+[Common Pierrot (Castalius rosimon)]()
+In 2010, as a Summer Research Fellow of the Indian Academy of Sciences, I carried out preliminary observational studies on the vertebrate visitors to Ficus benghalensis (Banyan), and Lepidopteran visitors of Lantana camara with Dr. Rohini Balakrishnan’s lab at the Indian Institute of Science, Bangalore, India. And learnt a lot about butterfly identification in the process.
+
+
+### King Cobra telemetry project
+[King Cobra (Ophiophagus hannah)]()
+I was thrilled to volunteer at the Agumbe Rainforest Research Station on their Long-term King Cobra Telemetry Project in 2010. This was the first telemetry study of any snake in India. These snakes live in highly human-dominated habitats- agricultural matrices interspersed with patches of forest. It is fascinating to see how they navigate this habitat.
+
+
+### Gibbon behavior
+[Western Hoolock Gibbon (Hoolock hoolock)]()
+In the summer of 2008, I volunteered with the Wildlife Trust of India at Kaziranga, Assam, India, studying the behavior of a Hoolock gibbon (Hoolock hoolock) being rehabilitated into the wild. Although I have always been slightly animal-crazy, this was my first extended wildlife research experience, and I was hoo(loc)ked!
+
+<br />
+<center>
+##### Contact: Anusha Shankar  |  Twitter: [\@nushiamme](https://twitter.com/nushiamme)  |  Email: [anusha.shankar@cornell.edu](mailto:anusha.shankar@cornell.edu)
+</center>

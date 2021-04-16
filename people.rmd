@@ -1,0 +1,66 @@
+---
+title: "People"
+output: html_document
+---
+<style>
+body {
+text-align: justify}
+</style>
+
+<br  />
+
+### Past and current students
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, warning=F, message=F)
+library(kableExtra)
+```
+
+```{r echo= FALSE}
+Duration <- c("Jan 2019 - May 2020", "Jan 2019 - Dec 2019", "Dec 2015 - May 2020", "Jun 2014 - Jan 2020", "Jun - Aug 2018", "Jun 2018", "Jun - Aug 2017", "Oct 2015 - Oct 2016", "Aug 2015 - Oct 2016", "Nov 2015 - Oct 2016", "Sept - Oct 2016", "Jul 2015 - Jan 2016", "Aug - Sep 2015", "Sep - Dec 2015", "Jun - Sep 2015", "Jun - Aug 2014")
+Name <- c("Kyle Callegari", "Shelby McCahon", "[Erich Eberts](https://ericheberts.weebly.com/)", "[Rebecca Schroeder](https://www.researchgate.net/profile/Rebecca_Schroeder5)", "Sarah Thompson", "Alexis Stark", "Isabelle Cisneros", "[Ana Morales](https://www.researchgate.net/profile/Ana_Morales26)", "Gabriela Córdova", "Gabriela Urgilés", "Rosalee Elting", "[Julisa Ricart](https://www.linkedin.com/in/julisaricart)", "Amanda Quezada", "Joshua van Bourg", "Pedro Machado Tapia", "Joseph Canepa")
+
+Position <- c("Undergraduate student, University of Alaska Fairbanks", "Undergraduate student, University of Alaska Fairbanks", "Undergraduate student, Loyola Marymount University. Currently: PhD stuent at Univ Toronto at Scarborough with Dr. Ken Welch", "Undergraduate student, George Fox University. Currently: Park Ranger, Montana", "Undergraduate student, George Fox University", "Undergraduate student, Northern Arizona University", "Undergraduate student, George Fox University. Currently: Doctor of Physical Therapy", "Head field assistant, Undergraduate, McGill University, Canada. Currently: M.Sc. at McGill University, Canada", "Universidad del Azuay, Internship & Bachelor’s thesis", "Universidad del Azuay, Internship & Bachelor’s thesis", "Undergraduate, George Fox University. Currently: Lab tech at the Univ of Washington with Dr. Alejandro Rico-Guevara", "Undergradaute student, University of Wisconsin-Madison. Currently: Tableau Developer at KSM Consulting", "Universidad del Azuay, Pasantias (internship) project", "Undergraduate, University of California Berkeley", "Undergraduate, Universidad del Azuay", "Undergraduate student, George Fox University")
+
+ppl_all <- data.frame(Duration, Name, Position)
+# library(flextable)
+# library(magrittr)
+# 
+# ppl_all %>% regulartable() %>% autofit() %>% 
+# width(j=~yrs,width=1) %>% width(j=~ppl,width=1) %>% width(j=~jobs,width=3)
+```
+\renewcommand{\arraystretch}{2}
+```{r, echo=FALSE}
+x <- knitr::kable(ppl_all, "html", header=F)
+column_spec(x, 1:2, width = "12em") %>%
+  kable_styling(latex_options = "striped")
+```
+
+### Current labs
+[Irby Lovette](http://www.eeb.cornell.edu/lovette/) - trait evolution, hybridization, gene flow, speciation, Birds! <br>
+[Maren Vitousek](https://vitousek.weebly.com/) - hormones, stress, phenotypic changes, endocrine physiology, sexual selection
+<br  />
+
+### Collaborators
+[Cory Williams](http://corytwilliams.com/) - circadian rhythms, hibernation, seasonal depression, Arctic ground squirrels, mammals <br>
+[Catherine Graham](https://www.wsl.ch/en/employees/graham.html) - community composition, hummingbirds, diversity, ecological networks, field ecology <br>
+[Don Powers](http://dpowerslab.com/) - hummingbirds, field physiology, energetics, whole animal metabolism <br>
+[Liliana Dávalos](https://lmdavalos.github.io/) - molecular evolution, conservation, tropical ecology, traits, deforestation
+<br  />
+
+### Past labmates
+[Helen Chmura](https://scholar.google.com/citations?user=KJerNKgAAAAJ&hl=en) <br>
+[Jan Engler](https://submissionscience.wordpress.com/about/)  <br>
+[Ben Weinstein](http://benweinstein.weebly.com/) <br>
+[Boris Tinoco](https://scholar.google.com/citations?user=OwvyDMIAAAAJ&hl=en) <br>
+[Sarah Supp](https://sarahsupp.org/) <br>
+[Antonin Machac](http://machac.weebly.com/) <br>
+[Laura Graham](https://www.researchgate.net/profile/Laura_Graham13) <br>
+[Giovanni Rapacciuolo](http://giorapacciuolo.com/) <br>
+[Marisa Lim](http://marisalim.weebly.com/) <br>
+[Leone Brown](https://www.researchgate.net/profile/Leone_Brown) <br>
+<br />
+
+<center>
+##### Contact: Anusha Shankar  |  Twitter: [\@nushiamme](https://twitter.com/nushiamme)  |  Email: [anusha.shankar@cornell.edu](mailto:anusha.shankar@cornell.edu)
+</center>
