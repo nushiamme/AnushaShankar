@@ -19,7 +19,7 @@ navbar:
 output_dir: "."
 output:
   html_document:
-    theme: spacelab
+    theme: jekyll-theme-minimal
     highlight: textmate
     toc: yes 
     toc_float: true 
