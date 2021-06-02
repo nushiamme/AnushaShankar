@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Career advice for ecology trainees</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 52px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h2 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h3 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h4 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h5 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h6 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Anusha Shankar</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">About</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="AnushaShankar_Mar2021_CV.pdf">CV</a>
+</li>
+<li>
+  <a href="people.html">People</a>
+</li>
+<li>
+  <a href="earlycareer.html">Early Career Advice</a>
+</li>
+<li>
+  <a href="outreach_vids.html">Outreach/Videos</a>
+</li>
+<li>
+  <a href="gallery.html">Gallery</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Career advice for ecology trainees</h1>
+
+</div>
+
+
+<style>
+body {
+text-align: justify}
+</style>
+<p><br  /></p>
+<p>Update June 2021: I (still) get a lot of emails about this page, with many common questions, so I keep adding to it. If you have ideas, or questions that this article, or the linked ones, don’t answer, or you want to co-write a follow-up with me, <a href="mailto:anusha.shankar@cornell.edu">email me</a>!</p>
+<div id="helpful-links" class="section level3">
+<h3>Helpful Links</h3>
+<p>A quick google search will lead you to many links on how to get the most of your grad student experience. For example: <br> An article by a current Cornell graduate student (Janani Hariharan) on “<a href="">the hidden curriculum</a>” for international students - some things that people don’t tell you about the culture of academia in the US that are helpful to know when you start your program! She also has a <a href="">guide document</a> for international students looking to join a graduate program! For Indian students aspiring to do ecology, take a look below and at [Sahila Kudalkar’s post]. <!-- Links to many useful guides are listed on [Jennie Miller's page](). --> Science has a series of <a href="">useful articles</a> on selecting a graduate school and adviser, as well as on publishing scientific papers. When talking with potential advisers or others in the department you are interviewing with, here’s a <a href="">great thread</a> with ideas for questions you can ask them. Remember that you are evaluating them as much as they are evaluating you!</p>
+</div>
+<div id="listservs-that-advertise-jobs" class="section level3">
+<h3>Listservs that advertise jobs</h3>
+<p>You can find advertised positions at various career levels (from field-tech to Master’s, PhD, postdoc, government jobs, faculty positions) at these listservs: <a href="">Ecolog-L</a> (ecology-related), <a href="">EvolDir</a> (evolutionary biology related), <a href="">Texas A&amp;M</a>, and many other society-specific listservs depending on your field (e.g. <a href="">Animal Behavior Society</a>) or taxon (<a href="">Ornithology Exchange</a>, birds) of interest. Many jobs are advertised on Twitter- so it might be useful to create a science Twitter account for yourself. <br  /></p>
+</div>
+<div id="on-internships-and-emailing-people-about-internships" class="section level3">
+<h3>On internships and emailing people about internships</h3>
+<p>(Added June 2, 2021) If you email me or anyone else asking for general advice, here’s some things to think about and include in your email that can help me/them reply more usefully (and help make sure we are motivated to reply to you because we have enough context). What exactly would you like to know from me? Frame your questions in a way that I can give you a clear answer. It might help me if you can answer these questions: What career stage are you at and where are you based? What do you imagine doing after this career stage? What are your longer-term plans? Do you want to pursue a more academic career, like do a Masters or PhD? Or would you like to work with an NGO? Are you completely unsure about what to do next (this is totally okay!!), but you want some experience to help figure out what the options are? Either way, you can try emailing a professor or scientist at an NGO or an institute who’s doing work that seems interesting to you and ask if they have internship opportunities available. One way is to look at the authors of the papers you’re reading and see where they’re based. For example, if you’re in India, are there Indian scientists you’d just love to work with? There may be local NGOs or institutes you can work with if you don’t want to travel far (e.g. during the pandemic). I’d encourage you to google NGOs or institutes that do work you’re interested in, and imagine what you’d like to learn from them. Be as specific as you can when you email people, describing how you learned about them and what parts of their work you’re especially interested in, how you can contribute and how you’d like to grow/learn during the internship. You can email me for sample emails to ask people about internship/PhD/postdoc opportunities!</p>
+<p><strong>For Indian Bachelor’s or Master’s ecology/wildlife/animal behaviour students</strong>, here’s a brief and quick list I wrote down, for organisations you can consider writing to about internships. Please email me if you know of more that I should add to this list!! <br  /> <strong>Purely academic</strong>: <br  /> - Indian Academy of Science summer internships (you’d be based at one of a number of institutes all over India. I did this in 2010 and learned a lot about how the academic system in India works!). <br  /> - JNCASR summer internships (these are usually for ~3 years, so I’m not sure whether you’d be eligible now, but you can write to their profs and ask if you’re interested in working with any of them). <br  /> - All kinds of academic institutes have ecology/wildlife departments with professors who may have openings for students to work on projects, try emailing them! e.g. The Indian Institute of Science’s (IISc) Centre for Ecological Sciences (CES), National Centre for Biological Sciences (NCBS), Wildlife Institute of India (WII), Pondicherry University, the Indian Institutes for Science Education and Research (IISERs), Azim Premji University, Ashoka University. <br  /></p>
+<p><strong>NGO’s you can work with:</strong><br  /> - Wildlife Conservation Society <br  /> - ATREE (Also has a PhD programme)<br  /> - Wildlife Trust of India<br  /> - Nature Conservation Foundation (also has a PhD programme)<br  /></p>
+</div>
+<div id="on-applying-for-graduate-programs" class="section level3">
+<h3>On Applying for graduate programs</h3>
+<p>(Sept 2013, with small edits Feb 2015, Dec 2016)<br> Below is a document I wrote as a guide targeted at foreign students applying for PhD programs, primarily in the US (Here it is as a <a href="https://anushashankar.weebly.com/uploads/1/3/9/6/13968642/on_applying_abroad.pdf">PDF</a>).<br> If you want access to an Excel spreadsheet that I made to help me plan out my grad school applications (because it gets pretty unmanageable quite quickly if you do it right), then <a href="mailto:anusha.shankar@cornell.edu">email me</a>!<br> Everything I have written here comes from my own experience, and from reading lots and lots of websites. Written initially for my juniors at the Ecology department in Pondicherry, India. Sahila Kudalkar has also provided valuable improvements and comments.</p>
+<p><strong>Application Deadlines</strong>: <br><br />
+I start with this because these are what will help you plan your application process. Applying for a PhD abroad takes time. Be prepared to invest a lot of effort and time in applying. If you want to study abroad, you will have to work for it. Most deadlines for M.Sc. and PhD programmes start on December 1st of the previous academic year. This means all your application materials need to be submitted by this date, say Dec 1st 2013 of you want to join in August 2014. Some universities have January deadlines, and some have March. But, for most, if you want a fellowship or any kind of funding, the earlier you apply, the better. Remember that the things that take the most time are Transcripts and recommendations- you need to start these especially early. Most application processes are largely online nowadays. <br  /></p>
+<p><strong>Funding</strong>: <br> Funding is not very good right now, for many programmes, because of the current economic situation all over the world. However, you can find fellowships, scholarships, or assistantships, to fund your study. An assistantship is usually either a TA (teaching assistantship), or an RA (research assistantship), where you teach UG students, or get paid to do research respectively. Many universities offer one of these to all admitted PhD students. Additionally, do check out the JN Tata Endowment Loan <a href="http://bit.ly/1j0qZ7x">Scholarships</a> for the Higher Education of Indians- they provide travel grants as well. If you have previous work experience, it would also be useful to check out Fulbright scholarships during the application process. The Ravi Sankaran Foundation is another organization that supports higher education of students studying environmental sciences. <br  /></p>
+<p><strong>How many universities/schools should I apply to?</strong> This could vary depending on your level of experience and qualifications, but if you are at a loss for how many applications to send in, the general guideline is 8-10 programs. I’ve heard many people suggest that you apply to: 1) 2-4 schools that you would really love to go to- that may have low admission rates but that you would regret if you didn’t apply to. These might have world-renowned programs in your field. 2) 3-4 schools that you are pretty sure you will get into, that are good schools that people have heard of, ones that you come across many papers in your field from, perhaps. 3) 2-3 schools that are ‘backup schools’ that you think you would be very well qualified for, and should get admission to given your qualifications. <br  /></p>
+<p><strong>How do I find universities to apply to?</strong> The easiest way is to find people you know who study in your field in the country/countries you’d like to study in, and ask them for advice. But if you’re reading this there is a chance you might not know that many such people. The next way, which might be the best way, is to read journal articles in your field(s) of interest, and select some of your favorite articles. Who authored those articles? Go to their websites- do they currently do work you are interested in? Are they looking for students? Then, look at articles that have cited the articles you like, and look at their authors and go through the same process. Make sure to keep track of your findings, at least the ones that look promising, in a Word document or an Excel file, because you can quickly lose track of your searches. Paste links to their websites, save their email addresses, and any other notes to your future self, all into that document/spreadsheet, to make your life easier. On the same document, you can later start keeping track of who you’ve written to, who’s responded, the status of your application, and so on. Feel free to email me for a sample spreadsheet. <br  /></p>
+</div>
+<div id="what-they-ask-for" class="section level3">
+<h3>What they ask for</h3>
+<p><em>Application Form</em>- Usually made up of a series of online forms, where you fill in your personal details, what course you are applying to, GPA, GRE and TOEFL scores, SOP, referee names, and so on [see below]. GRE (<a href="www.ets.org/gre">Graduate Record Examination</a>) General exam Scores - essentially a test of English and basic mathematics. The GRE is required for most post-graduate studies in the US, usually not required for the UK/Europe/Australia. Ideally should be taken between June and late September- early October. NOT later. When I wrote it in 2009, this exam cost Rs. 8000. Check the cost before applying, and be sure that you want to apply to the US (Not very useful otherwise). Scores take 2 weeks to be reported after your test date, and you should leave a month for them to reach the university you are applying to (Same for TOEFL). <br  /></p>
+<p><em>TOEFL</em> (<a href="http://www.ets.org/toefl">Test of English as a Foreign Language</a>). An english exam (much simpler than GRE english), required mainly to prove that you know enough to speak/read/write English when you’re going to European/Australian/American universities. It is largely for the visa requirement that they ask for this exam. This exam cost Rs. 6000 when I wrote it in 2010. IELTS (International English Language Testing System) is another accepted English exam. Which test you should take depends on the country you are applying to. TOEFL is more for the US, and IELTS more for the UK. But both are accepted in most places. <br  /></p>
+<p><em>CV- Curriculum Vitae</em>- sometimes called a Resumé, but they’re quite different from each other. You do not have to include your address and a line saying “Objective”. Most people write “To get a PhD in your university.” This is too obvious an objective, and does not help you at all. I would suggest leaving it out. To look at <a href="AnushaShankar_Mar2021_CV.pdf">my CV</a> for some ideas on formatting, you can look at. There are many many resources on the internet for CV formats- don’t just base yours on one, but instead look at multiple ones. <br  /></p>
+<p><em>Statement of Purpose</em>- This is a description what you want to do. This has to be very well written, so make sure you ask someone who knows a little bit about writing to help you, or edit once you are done. Your SOP has to include why you want to pursue M.Sc./PhD/…, why in that particular university, how will this course help you, why you would fit well with their programme (spelt program in the US), your short-term and longer-term professional goals, and a brief description of how your past experiences will help you achieve this. SOPs are usually 1-2 pages long. However, some universities have word limits in the application which you will have to stick to. It is always a good idea to prepare a draft, and carefully modify it each time you are uploading it to an application, to be specific to the university. Working on your SOP carefully, and revising it as many times as it takes, is a good idea- plan that it might take you one month. Ask your friends and/or seniors for their SOP formats, and ask them to look at yours. <br  /></p>
+<p><em>Recommendations</em>- This is a very important part of your application. Most universities ask for 2-4 people who can give you recommendation. It is usually the practice, when you’re applying for PhD, that at least 2 of these people have taught you or guided you on a research project. The other can be more of a character reference, or can be a teacher as well. It helps if 1-2 of these people are well known in the field. <br  /></p>
+<p><em>Transcripts</em>- These are official attested copies of any one of, or a combination of, the following: semester mark sheets, consolidated marksheet, provisional degree certificate, degree certificate. You will need to get the same from both your UG and PG colleges, in sealed stamped envelopes. Each university has its own requirements for what you should send and when you should send it- some don’t need it during application, but only if you are admitted. Others need transcripts along with the application. <br  /></p>
+</div>
+<div id="what-they-dont-always-ask-for-which-you-should-do" class="section level3">
+<h3>What they don’t always ask for, which you should do</h3>
+<p><strong>Write to profs!!</strong> <br> Around August-September, you should start searching for universities and professors whom you would like to work with. Once you find them, write to them saying you are interested in their work on XXX, your past experience is with YXY, and whatever else might be relevant. Your email should ideally be 2-4 paragraphs long- enough to catch their attention but not too long and boring. It is normal to attach your CV (Curriculum Vitae) or resume to this email, so they can choose to see a detailed description of your previous experience/academics. If they do not reply, you can safely resend the email after about 3 weeks, asking if they had the time to see your email. This writing to profs is very necessary for doing a higher degree abroad, as in many places they will accept you only if a professor has agreed to take you as their student. Additionally, it helps to look at the prof’s list of publications, and perhaps read a couple of papers that interest you. Try to draw parallels between his past research and your proposed research path if possible. Also, while writing to the professor, it is suggested that you be professional and <em>avoid flowery writing</em>. Finally, university students abroad (especially in the USA) do not use the term ‘Sir’ or ‘Madam’ so you could initially begin with a formal ‘Dr. A’. ‘Dear’ is rarely used as well. Please read this excellent guide on writing a good email to a professor/for an internship! <br  /></p>
+<p><strong>What advisors look for</strong>: <br> I’m writing this in April 2013, after having joined the PhD program in Stony Brook in August 2012. I see now that advisers vary a lot in what they want from a student. But the key thing to understand is that there is so much luck involved in the whole process. The people you want to apply to must have funding, must have space in their lab for a new student, must have the departmental support to take an international student, must be looking for someone with your skill set, and so on. This is why you must 1. Be so good (experience + publications + scientific maturity) that they will do anything to get you to their lab, or 2. Have your own funding, or 3. (and this you should do anyway) You must write to many many many professors. Because just by luck, more than half will not have an available position. You need to check their website, see if it has anything about opportunities for students (but this is not always updated, so write anyway). If you have a good peer-reviewed publication or two, and are applying to the US for a PhD, your chances of getting in are good given all the luck aspects I just mentioned. You need research experience for sure, decent to good GRE scores and grades (because not just the prof takes you in, you are also competing with other applicants for funding from the department, and you have to measure up). <br  /></p>
+<p>Make sure your cover letter is attention grabbing, make sure your grammar is correct, that you have attached your (properly formatted) CV. Write again if they don’t respond in 2-3 weeks. Many professors expect you to persist, because they are sometimes too busy to reply to emails unless you really prove your interest. If you are really interested in their lab, write to their PhD students. There is a lot of interaction between advisors and other professors’ students in some departments, so it might help to get in touch with a student who might reply faster. Do not ask obsessively about funding in the first email you send to any of them, but definitely bring it up after a conversation has started. Good luck!</p>
+</div>
+<div id="general-advice-to-graduate-students" class="section level3">
+<h3>General advice to graduate students</h3>
+<p>Here are some more other things I’ve learned since I started as a grad student (added May 2018, updated June 2021). <strong>Take initiative and self-evaluate</strong> - don’t expect your adviser or department, however good they are, to always think about what you need. You need to think about your long-term goals for yourself, and evaluate them periodically (maybe once a month). Are you where you want to be, to achieve your 5-year goals? What else do you want to get experience in, and by what time? What are the most important elements missing on your CV, or even on your <a href="?%20What%20have%20you%20not%20tried%20out,%20that%20you%20should%20try%20out%20before%20you%20graduate?%20A%20PhD%20is%20a%20great%20time%20to%20explore%20new%20fields%20and%20skills.%20Periodically%20re-evaluate!%20%3Cbr%3E%20**Always%20keep%20an%20updated%20CV%20or%20at%20least%20an%20informal%20running%20list%20of%20everything%20you%20do!!**%20Add%20to%20the%20list%20every%20time%20you%20participate%20or%20lead%20something,%20because%20it%20is%20impossible%20to%20keep%20track%20of%20it%20all.%20This%20will%20be%20so%20useful%20when%20you%20are%20applying%20for%20jobs,%20because%20you%20might%20apply%20for%20different%20types%20of%20positions%20that%20prioritize%20various%20skills-%20you%20never%20know%20when%20that%20random%20workshop%20you%20attended%20might%20prove%20really%20useful%20for%20a%20job%20you%20become%20interested%20in!%20You%20don&#39;t%20have%20to%20keep%20track%20of%20every%20webinar%20and%20seminar%20you%20attend,%20but%20bigger%20events%20attend:%20professional%20workshop,%20skills%20workshop,%20mentoring%20program,%20talk%20you%20give,%20and%20so%20on,%20should%20go%20on%20the%20list.%20Also,%20if%20you%20do%20any%20service%20activities,%20they%20should%20go%20on%20the%20list/CV:%20if%20you%20review%20papers,%20serve%20on%20a%20student%20club%20board,%20judge%20a%20school%20science%20fair,%20give%20a%20lecture%20to%20a%20class,%20serve%20on%20a%20committee,%20help%20organize%20a%20conference.%20All%20of%20that,%20record%20it!%20And%20definitely%20keep%20track%20of%20any%20grants%20you%20get%20or%20funding%20that%20you%20raise%20for%20anything,%20whether%20it&#39;s%20for%20an%20event%20or%20for%20your%20own%20research!%20Trust%20me%20that%20even%20though%20it%20might%20seem%20sometimes%20like%20you%20haven&#39;t%20done%20much%20yet,%20you%20will%20lose%20track%20in%20a%20few%20years%20:">shadow CV</a>. <br> <strong>Ask for a graduate student mentor</strong>, or ask your program to start a graduate student mentoring program. I started such a program in mine for first year grad students and can help with tips for setting this up. Even if there is no such program, find people you respect and make them your mentors. People are good at different things- you cannot expect one person to help you with all your personal+professional needs, so make, for yourself, a network of mentors. And here’s a not-so-secret secret- people generally like being mentors! It feels great to pay forward the help they got, getting where they are now! <br> Get a <strong>silent writing group</strong> together, or at least a couple of writing buddies. Your success as grad student depends in large part on your writing, but many people don’t treat writing time like they treat class time- as an essential part of every day (I still really struggle with this). Having a writing group helps make your writing time more regimented. And this helps a lot in the long run, especially if you like having some regular (but non-judgmental) accountability. I started a silent writing group in my department at Stony Brook, and it’s been successful so far. We just sit together in a room and write quietly at certain times of the week, sometimes with some background music (search for the “Study alpha waves” playlist on Spotify).</p>
+<br />
+<center>
+<div id="contact-anusha-shankar-twitter-nushiamme-email-anusha.shankarcornell.edu" class="section level5">
+<h5>Contact: Anusha Shankar | Twitter: <a href="https://twitter.com/nushiamme">@nushiamme</a> | Email: <a href="mailto:anusha.shankar@cornell.edu">anusha.shankar@cornell.edu</a></h5>
+</center>
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;">
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,5 +1,5 @@
 ---
-title: "Grad School Advice"
+title: "Career advice for ecology trainees"
 output:
   html_document:
     toc: true
@@ -13,10 +13,8 @@ text-align: justify}
 </style>
 <br  />
 
-#### Some general advice for graduate students
 
-
-**Update July 9, 2019**: I get a lot of emails about this page, with many common questions. I am thinking of writing a follow-up article to this one - if you have ideas, questions that this article, or the linked ones, don't answer, or you want to co-write a follow-up with me, [email me](mailto:anusha.shankar@cornell.edu)!
+Update June 2021: I (still) get a lot of emails about this page, with many common questions, so I keep adding to it. If you have ideas, or questions that this article, or the linked ones, don't answer, or you want to co-write a follow-up with me, [email me](mailto:anusha.shankar@cornell.edu)!
 
 ### Helpful Links
 A quick google search will lead you to many links on how to get the most of your grad student experience. For example: <br>
@@ -29,6 +27,22 @@ When talking with potential advisers or others in the department you are intervi
 ### Listservs that advertise jobs
 You can find advertised positions at various career levels (from field-tech to Master's, PhD, postdoc, government jobs, faculty positions) at these listservs: [Ecolog-L]() (ecology-related), [EvolDir]() (evolutionary biology related), [Texas A&M](), and many other society-specific listservs depending on your field (e.g. [Animal Behavior Society]()) or taxon ([Ornithology Exchange](), birds) of interest. Many jobs are advertised on Twitter- so it might be useful to create a science Twitter account for yourself.
 <br  />
+
+
+### On internships and emailing people about internships
+(Added June 2, 2021) If you email me or anyone else asking for general advice, here's some things to think about and include in your email that can help me/them reply more usefully (and help make sure we are motivated to reply to you because we have enough context). What exactly would you like to know from me? Frame your questions in a way that I can give you a clear answer. It might help me if you can answer these questions: What career stage are you at and where are you based? What do you imagine doing after this career stage? What are your longer-term plans? Do you want to pursue a more academic career, like do a Masters or PhD? Or would you like to work with an NGO? Are you completely unsure about what to do next (this is totally okay!!), but you want some experience to help figure out what the options are? Either way, you can try emailing a professor or scientist at an NGO or an institute who's doing work that seems interesting to you and ask if they have internship opportunities available. One way is to look at the authors of the papers you're reading and see where they're based. For example, if you're in India, are there Indian scientists you'd just love to work with? There may be local NGOs or institutes you can work with if you don't want to travel far (e.g. during the pandemic). I'd encourage you to google NGOs or institutes that do work you're interested in, and imagine what you'd like to learn from them. Be as specific as you can when you email people, describing how you learned about them and what parts of their work you're especially interested in, how you can contribute and how you'd like to grow/learn during the internship. You can email me for sample emails to ask people about internship/PhD/postdoc opportunities!
+
+**For Indian Bachelor's or Master's ecology/wildlife/animal behaviour students**, here's a brief and quick list I wrote down, for organisations you can consider writing to about internships. Please email me if you know of more that I should add to this list!! <br  />
+**Purely academic**: <br  />
+ - Indian Academy of Science summer internships (you'd be based at one of a number of institutes all over India. I did this in 2010 and learned a lot about how the academic system in India works!). <br  />
+ - JNCASR summer internships (these are usually for ~3 years, so I'm not sure whether you'd be eligible now, but you can write to their profs and ask if you're interested in working with any of them). <br  />
+ - All kinds of academic institutes have ecology/wildlife departments with professors who may have openings for students to work on projects, try emailing them! e.g. The Indian Institute of Science's (IISc) Centre for Ecological Sciences (CES), National Centre for Biological Sciences (NCBS), Wildlife Institute of India (WII), Pondicherry University, the Indian Institutes for Science Education and Research (IISERs), Azim Premji University, Ashoka University. <br  />
+
+**NGO's you can work with:**<br  />
+ - Wildlife Conservation Society  <br  />
+ - ATREE (Also has a PhD programme)<br  />
+ - Wildlife Trust of India<br  />
+ -  Nature Conservation Foundation (also has a PhD programme)<br  />
 
 
 ### On Applying for graduate programs
@@ -89,10 +103,11 @@ I’m writing this in April 2013, after having joined the PhD program in Stony B
 
 Make sure your cover letter is attention grabbing, make sure your grammar is correct, that you have attached your (properly formatted) CV. Write again if they don’t respond in 2-3 weeks. Many professors expect you to persist, because they are sometimes too busy to reply to emails unless you really prove your interest. If you are really interested in their lab, write to their PhD students. There is a lot of interaction between advisors and other professors’ students in some departments, so it might help to get in touch with a student who might reply faster. Do not ask obsessively about funding in the first email you send to any of them, but definitely bring it up after a conversation has started. Good luck!
 
-#### P.S. Update (added ~May 2018)
-Here are some more other things I've learned in my time as a grad student.
+### General advice to graduate students
+Here are some more other things I've learned since I started as a grad student (added May 2018, updated June 2021).
 **Take initiative and self-evaluate** - don't expect your adviser or department, however good they are, to always think about what you need. You need to think about your long-term goals for yourself, and evaluate them periodically (maybe once a month). Are you where you want to be, to achieve your 5-year goals? What else do you want to get experience in, and by what time? What are the most important elements missing on your CV, or even on your [shadow CV](? What have you not tried out, that you should try out before you graduate? A PhD is a great time to explore new fields and skills. Periodically re-evaluate! <br>
-Ask for a graduate student **mentor**, or ask your program to start a graduate student mentoring program. I started such a program in mine for first year grad students and can help with tips for setting this up. Even if there is no such program, find people you respect and make them your mentors. People are good at different things- you cannot expect one person to help you with all your personal+professional needs, so make, for yourself, a network of mentors. And here's a not-so-secret secret- people generally like being mentors! It feels great to pay forward the help they got, getting where they are now! <br>
+**Always keep an updated CV or at least an informal running list of everything you do!!** Add to the list every time you participate or lead something, because it is impossible to keep track of it all. This will be so useful when you are applying for jobs, because you might apply for different types of positions that prioritize various skills- you never know when that random workshop you attended might prove really useful for a job you become interested in! You don't have to keep track of every webinar and seminar you attend, but bigger events attend: professional workshop, skills workshop, mentoring program, talk you give, and so on, should go on the list. Also, if you do any service activities, they should go on the list/CV: if you review papers, serve on a student club board, judge a school science fair, give a lecture to a class, serve on a committee, help organize a conference. All of that, record it! And definitely keep track of any grants you get or funding that you raise for anything, whether it's for an event or for your own research! Trust me that even though it might seem sometimes like you haven't done much yet, you will lose track in a few years :). <br>
+**Ask for a graduate student mentor**, or ask your program to start a graduate student mentoring program. I started such a program in mine for first year grad students and can help with tips for setting this up. Even if there is no such program, find people you respect and make them your mentors. People are good at different things- you cannot expect one person to help you with all your personal+professional needs, so make, for yourself, a network of mentors. And here's a not-so-secret secret- people generally like being mentors! It feels great to pay forward the help they got, getting where they are now! <br>
 Get a **silent writing group** together, or at least a couple of writing buddies. Your success as grad student depends in large part on your writing, but many people don't treat writing time like they treat class time- as an essential part of every day (I still really struggle with this). Having a writing group helps make your writing time more regimented. And this helps a lot in the long run, especially if you like having some regular (but non-judgmental) accountability. I started a silent writing group in my department at Stony Brook, and it's been successful so far. We just sit together in a room and write quietly at certain times of the week, sometimes with some background music (search for the "Study alpha waves" playlist on Spotify).
 
 

@@ -1,9 +1,113 @@
 ---
 title: "Outreach/Videos"
-output: html_document
+output: 
+ html_document:
+  fig_caption: yes
 ---
 
-## Coming soon!
+## Science outreach and communication
+Here are a few science communication and crowd-funded projects I am involved with:  <br />
+[BrainChem (& Ecology)](https://www.facebook.com/brainchem/), a popular science site I run with a Chemical Neurobiologist, [Pratik Kumar](http://pratikkumar15.wixsite.com/pratik).  <br />
+[Science Outside](https://scienceoutside.com/), a website featuring fun stories from field scientists - submit your stories to us!  <br />
+[Crowd-funded project](https://experiment.com/projects/a-mother-s-work-is-never-done-using-thermal-imaging-to-detect-torpor-in-nesting-hummingbirds/dashboard/metrics) on nesting hummingbirds that I am working on with [Erich Eberts](https://ebertser.wordpress.com/author/ebertser/) - a past mentee/current collaborator of mine- and other collaborators.  <br />
+Crowd-funded [project](https://experiment.com/projects/do-hummingbirds-actually-sleep) titled "Do hummingbirds actually sleep" I worked on with Dr. Don Powers and students.  <br />
+
+Check out [Open Explorer](https://openexplorer.nationalgeographic.com/home), an open National Geographic platform for scientists to post field notes and engage with the public.  <br />
+
+
+Below are snapshots of my writing and videos for the public!  <br />   <br />
+<center>
+
+
+### I wrote a children's book for Pratham's Storyweaver
+
+![](storyweaver.png){width="70%"}
+
+
+
+### Here are three articles I wrote for Current Conservation  <br />
+
+![City-girl field ecologist](CityGirl.jpg){width="30%"}  |  ![Fun hummingbird facts](FunHummerFacts.jpg){width="30%"}  |  ![A day in the life of: Anusha Shankar](ADayLife.jpg){width="30%"}
+
+[A city-girl field ecologist](http://currentconservation.org/issues/a-city-girl-field-ecologist/) | [Fun hummingbird facts](https://www.currentconservation.org/cc-kids/fun-facts-2/)  | [A day in the life of: Anusha Shankar](https://www.currentconservation.org/cc-kids/humming-with-energy/) 
+
+### Blog article for National Geographic / Science Outside
+
+I wrote a blog article about hummingbird torpor and why I love collecting their pee, which used to be hosted on National Geographic's (now defunct) blog. You can find it on [Science Outside](https://scienceoutside.com/portfolio/my-two-recent-obsessions-have-been-hummingbird-pee-and-torpor/).  <br />
+
+![](Hummer1.gif){width=25%}  ![](Hummer2.gif){width=70%}
+
+### Here's an [article in the Audubon](http://www.audubon.org/news/why-anusha-shankar-doesnt-mind-being-hummingbird-pee-person) about my research!
+
+![](audubon-shankar.jpg){width=70%}
+
+### Publicly available videos
+
+**Oct 11, 2020 OutsideIn series from the Bangalore Life Science Cluster (BLiSC),** <br />
+National Centre for Biological Sciences, Bangalore, India <br />
+*From hornbills to hummingbirds: What watching wildlife can teach us about ourselves* <br />
+
+![](https://youtu.be/1dKWUKJNo-w)
+
+
+**Aug 14, 2020 'True Facts' video by Ze Frank that collaborator Don Powers and I contributed to**!
+
+![](https://youtu.be/Biagyb7AcK8)
+
+
+**June 26, 2020 Madras Naturalists' Society** <br />
+*How do the world's smallest birds - hummingbirds - manage to exist?*
+
+![](https://youtu.be/nrHQoeejysE)
+
+
+**June 25, 2020 British Ecological Society's Ecology Live series** <br />
+*Spending energy unusually and flexibly: Lessons from flying ninja hummingbirds* <br />
+
+![](https://youtu.be/7EsSXr1SG78)
+
+
+**May 28, 2020 National Geographic Explorer Classroom hangout** <br />
+*Seeing Science in Everyday Life with Anusha Shankar* <br />
+
+![](May28_2020_ExplorerClassroom.png)
+
+**May 11, 2020 National Geographic Explorer Classroom hangout in Spanish** <br />
+*La vida secreta de los colibríes con Anusha Shankar*
+
+![](May11_2020_ExplorerClassroomSpanish.png)
+
+ 
+**June 28, 2019 Two American Ornithological Society videos** <br />
+[here](https://www.facebook.com/421243554746287/videos/2399312180127268/) and [here](https://www.facebook.com/421243554746287/videos/412831486111338) on Diversity in ornithology
+
+
+**March 10, 2019 TEDx talk in my dear hometown of Chennai, India** <br />
+*What can hummingbirds teach us about time?*
+
+![](https://youtu.be/avpFhDToU_w)
+
+
+**Feb 22, 2019 National Geographic Explorer Classroom hangout** <br />
+*Hummingbirds wet their beds, and other field curiosities*
+
+![](https://youtu.be/UBQ2p9bk85I)
+
+
+**Apr 25, 2018 Stony Brook University 3 Minute Thesis** <br />
+*The surprising secrets of sleeping hummingbirds*
+
+![](https://youtu.be/klN2T8Px_ac)
+
+
+**Oct 21, 2016 Today I Learned, National Geographic** <br />
+*Hummingbirds can starve to death in hours*
+
+![](https://youtu.be/yKytMZ8G4gA)
+
+</center>
+
+
 
 <br />
 <center>

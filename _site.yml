@@ -10,8 +10,8 @@ navbar:
       href: AnushaShankar_Mar2021_CV.pdf
     - text: "People"
       href: people.html
-    - text: "Grad School Advice"
-      href: gradschool.html
+    - text: "Early Career Advice"
+      href: earlycareer.html
     - text: "Outreach/Videos"
       href: outreach_vids.html
     - text: "Gallery"
@@ -19,7 +19,7 @@ navbar:
 output_dir: "."
 output:
   html_document:
-    theme: jekyll-theme-minimal
+    theme: spacelab
     highlight: textmate
     toc: yes 
     toc_float: true 
