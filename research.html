@@ -19,6 +19,15 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -26,12 +35,16 @@
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -44,32 +57,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 
@@ -79,10 +67,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -99,40 +83,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 52px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h2 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h3 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h4 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h5 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h6 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -160,7 +117,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -172,7 +129,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -183,10 +140,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -198,7 +168,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -324,7 +293,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -365,9 +334,6 @@ div.tocify {
 <li>
   <a href="outreach_vids.html">Outreach/Videos</a>
 </li>
-<li>
-  <a href="gallery.html">Gallery</a>
-</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -376,7 +342,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -402,7 +368,7 @@ text-align: justify}
 <!-- </video> -->
 <!-- <video width="400" src="MVI_9736.MOV" type="video/mp4" preload controls> -->
 <!-- </video>  -->
-<!-- ![Purple-bibbed whitetip, ©Anusha Shankar](MVI_9555.MOV)(width=40%) ![Empress brilliant, ©Anusha Shankar](MVI_9736.MOV)(width=40%) -->
+<p><video src="Photos/MVI_9555.MOV" style="width:40.0%" controls=""><a href="Photos/MVI_9555.MOV">Purple-bibbed whitetip, ©Anusha Shankar</a></video> <video src="Photos/MVI_9736.MOV" style="width:40.0%" controls=""><a href="Photos/MVI_9736.MOV">Empress brilliant, ©Anusha Shankar</a></video></p>
 <p>For my PhD dissertation, I studied how hummingbird manage their energy budgets on a daily basis. By collecting whole-animal physiological data in the field in Ecuador and Arizona, I assessed what energetic strategies free-living hummingbirds use during the day and at night. Hummingbirds are really small. We know that- the smallest hummingbird weighs about the same as a US penny, and the average is the same as a US quarter. Yet, they have among the highest possible metabolic rates of all vertebrates. If we spent energy at the rate they do, we’d have to eat about 300 hamburgers a day to survive! So how do they manage their energy on a daily basis? How do they manage to survive across North and South America? During the day they are endotherms- they maintain a constant body temperature like we humans do. And doing this is energetically expensive. So they eat a lot during the day (~2-3 times their weight in nectar every day). At night, they can use another strategy. They go into torpor and stop doing that costly thing of maintaining their body temperature. They become like ectotherms, (like lizards), lower their body temperature and metabolic rates and save an average of some 82% of their energy in this state. That way, they have enough energy stored overnight to get up and fly to find food in the morning! I measured how much energy and time they spend on different activities every day. I wanted to know how different hummingbird species manage their energy differently. And, for instance, how warming temperatures with climate change could affect how they balance these tight energy budgets. I presented some work from this project at the wonderful Gordon conference on Unifying ecology across scales, at National Geographic, at NAOC 2016, and SICB 2017 and 2018. Here’s a 45-minute live hangout with Explorer Classroom I did with National Geographic. Part of this work was funded from NASA project with Dr. Catherine Graham and Dr. Don Powers. This is a collaborative project, integrating ideas across physiology, ecology and evolution.</p>
 </div>
 <div id="transcriptomics" class="section level4">
@@ -421,34 +387,34 @@ text-align: justify}
 </div>
 <div id="seasonal-affective-disorder" class="section level3">
 <h3>Seasonal Affective Disorder</h3>
-<p><strong>In Nile grass rats (SAD rats)</strong> <img src="" /></p>
+<p><strong>In Nile grass rats (SAD rats)</strong> <img src="Photos/Fairbanks.jpg" /></p>
 <p>If you live someplace which only gets 4 hours of sunlight a day, would you be sad and depressed? A lot of people in temperate regions are in the winter. About 10 million Americans, for instance, suffer from Seasonal Affective Disorder (appropriately, abbreviated as SAD). 9% of Alaskan women are affected, which is partly why it is important for us to understand how this disorder works, and how we can correct it. But common lab rats and mice - that would usually be good animal models for studying such disorders - are active at night. And it does not make sense for us to test the effects of short photoperiods on nocturnal animals. So, instead, for my first postdoctoral postion at the University of Alaska Fairbanks, I studied SAD in diurnal (active during the day) Nile grass rats. We studied how these rats respond to short days in terms of their sleep patterns, carbohydrate consumption (do they binge-eat sugary things when they are depressed?), and changes in their gut microbiome.</p>
 </div>
 <div id="bird-genetics-and-evolution" class="section level3">
 <h3>Bird genetics and evolution</h3>
 <p><strong>Of the Shola forest, Western Ghats</strong></p>
-<p><a href="">Oriental White-eye (Zosterops palpebrosus)</a> I spent the summer of 2012 as a field assistant in the Western Ghats of southern India. Working with V.V. Robin and Uma Ramakrishnan, I learnt how to mist net birds, draw samples, and carry out some genetic work. This project aims at understanding how high elevation bird and plant species might respond to future climate change, by studying how climate affected these species in the past. Some photos of the field season can be found here.</p>
+<p><a href="Photos/WhiteEye.jpg">Oriental White-eye (Zosterops palpebrosus)</a> I spent the summer of 2012 as a field assistant in the Western Ghats of southern India. Working with V.V. Robin and Uma Ramakrishnan, I learnt how to mist net birds, draw samples, and carry out some genetic work. This project aims at understanding how high elevation bird and plant species might respond to future climate change, by studying how climate affected these species in the past. Some photos of the field season can be found here.</p>
 </div>
 <div id="hornbills" class="section level3">
 <h3>Hornbills</h3>
-<p><strong>Nest site selection</strong> <a href="">Female (Left) and Male Malabar Pied Hornbills</a></p>
+<p><strong>Nest site selection</strong> <a href="Photos/MPH.png">Female (Left) and Male Malabar Pied Hornbills</a></p>
 <p>I had the wonderful opportunity of studying the Malabar Pied Hornbill (Anthracoceros coronatus) for my Master’s thesis in 2011. Under the guidance of Dr. Priya Davidar at Pondicherry University, India, and along with the Applied Environmental Research Foundation, Pune, India, I studied habitat parameters which affected nest site selection in this beautiful bird. I presented this work at SCCS, Bangalore 2011 and at the 6th Biennial International Biogeography Society conference in Miami, FL, January 2013. (Note the pale pinkish-white ring around the eye of the female Malabar Pied to the left; the male to the right does not have this ring.)</p>
 </div>
 <div id="wwf-youth-tiger-ambassador" class="section level3">
 <h3>WWF Youth Tiger Ambassador</h3>
-<p><a href="">With India’s tile on the Tiger Walk, Vladivostok, Russia</a> In 2010, I had the great opportunity of being one of two Youth Tiger Ambassadors with WWF India, and had the honor of representing India at the Youth Tiger Summit held in Vladivostok, Russia. This summit was held in parallel with a meeting of the Heads of State of tiger range countries. It was aimed at involving the youth of countries with an interest in tiger conservation in spreading awareness in their respective nations. We visited protected areas in the land of the Amur tiger, and drafted a Youth Tiger action plan. You can see more about the experience, and a video (in Russian) of my presentation to Vladimir Putin, among other Heads of State, here.</p>
+<p><a href="Photos/Russia.jpg">With India’s tile on the Tiger Walk, Vladivostok, Russia</a> In 2010, I had the great opportunity of being one of two Youth Tiger Ambassadors with WWF India, and had the honor of representing India at the Youth Tiger Summit held in Vladivostok, Russia. This summit was held in parallel with a meeting of the Heads of State of tiger range countries. It was aimed at involving the youth of countries with an interest in tiger conservation in spreading awareness in their respective nations. We visited protected areas in the land of the Amur tiger, and drafted a Youth Tiger action plan. You can see more about the experience, and a video (in Russian) of my presentation to Vladimir Putin, among other Heads of State, here.</p>
 </div>
 <div id="iisc-summer-research-fellowship" class="section level3">
 <h3>IISc Summer research fellowship</h3>
-<p><strong>Indian Institute of Science</strong> <a href="">Common Pierrot (Castalius rosimon)</a> In 2010, as a Summer Research Fellow of the Indian Academy of Sciences, I carried out preliminary observational studies on the vertebrate visitors to Ficus benghalensis (Banyan), and Lepidopteran visitors of Lantana camara with Dr. Rohini Balakrishnan’s lab at the Indian Institute of Science, Bangalore, India. And learnt a lot about butterfly identification in the process.</p>
+<p><strong>Indian Institute of Science</strong> <a href="Photos/CommonPierrot.jpg">Common Pierrot (Castalius rosimon)</a> In 2010, as a Summer Research Fellow of the Indian Academy of Sciences, I carried out preliminary observational studies on the vertebrate visitors to Ficus benghalensis (Banyan), and Lepidopteran visitors of Lantana camara with Dr. Rohini Balakrishnan’s lab at the Indian Institute of Science, Bangalore, India. And learnt a lot about butterfly identification in the process.</p>
 </div>
 <div id="king-cobra-telemetry" class="section level3">
 <h3>King Cobra telemetry</h3>
-<p><a href="">King Cobra (Ophiophagus hannah)</a> I was thrilled to volunteer at the Agumbe Rainforest Research Station on their Long-term King Cobra Telemetry Project in 2010. This was the first telemetry study of any snake in India. These snakes live in highly human-dominated habitats- agricultural matrices interspersed with patches of forest. It is fascinating to see how they navigate this habitat.</p>
+<p><a href="Photos/KingCobra.jpg">King Cobra (Ophiophagus hannah)</a> I was thrilled to volunteer at the Agumbe Rainforest Research Station on their Long-term King Cobra Telemetry Project in 2010. This was the first telemetry study of any snake in India. These snakes live in highly human-dominated habitats- agricultural matrices interspersed with patches of forest. It is fascinating to see how they navigate this habitat.</p>
 </div>
 <div id="gibbon-behavior" class="section level3">
 <h3>Gibbon behavior</h3>
-<p><a href="">Western Hoolock Gibbon (Hoolock hoolock)</a> In the summer of 2008, I volunteered with the Wildlife Trust of India at Kaziranga, Assam, India, studying the behavior of a Hoolock gibbon (Hoolock hoolock) being rehabilitated into the wild. Although I have always been slightly animal-crazy, this was my first extended wildlife research experience, and I was hoo(loc)ked!</p>
+<p><a href="Photos/Gibbon.jpg">Western Hoolock Gibbon (Hoolock hoolock)</a> In the summer of 2008, I volunteered with the Wildlife Trust of India at Kaziranga, Assam, India, studying the behavior of a Hoolock gibbon (Hoolock hoolock) being rehabilitated into the wild. Although I have always been slightly animal-crazy, this was my first extended wildlife research experience, and I was hoo(loc)ked!</p>
 <br />
 <center>
 <div id="contact-anusha-shankar-twitter-nushiamme-email-anusha.shankarcornell.edu" class="section level5">
@@ -471,7 +437,7 @@ text-align: justify}
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -489,7 +455,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

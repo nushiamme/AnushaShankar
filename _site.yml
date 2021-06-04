@@ -14,8 +14,8 @@ navbar:
       href: earlycareer.html
     - text: "Outreach/Videos"
       href: outreach_vids.html
-    - text: "Gallery"
-      href: gallery.html
+    # - text: "Gallery"
+    #   href: gallery.html
 output_dir: "."
 output:
   html_document:
