@@ -19,7 +19,7 @@ navbar:
 output_dir: "."
 output:
   html_document:
-    theme: cosmo
+    theme: spacelab
     highlight: textmate
     toc: yes 
     toc_float: true 

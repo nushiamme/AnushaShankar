@@ -1,6 +1,7 @@
 ---
 title: "Gallery"
 output: html_document
+draft: true
 ---
 
 ## Coming soon!
