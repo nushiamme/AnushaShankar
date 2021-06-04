@@ -13,8 +13,8 @@ text-align: justify}
 </style>
 
 ``` {r echo=FALSE, out.width="30%", out.extra='style="float:left; padding:10px"'}
- # fig.cap = "© Jen Shook/National Geographic",
-knitr::include_graphics("AShankar_JenShook_crop.jpg")
+ # fig.cap = "© Tanmay Shankar",
+knitr::include_graphics("Photos/AnushaShankar_WG.jpg")
 ```
 
 I am a [National Geographic](https://www.nationalgeographic.org/find-explorers/anusha-shankar) Explorer and Young Leader, a Lewis and Clark [Field Scholar](https://www.amphilsoc.org/grants/lewis-and-clark-fund-exploration-and-field-research), and am currently a  [Rose Postdoctoral Fellow](https://www.birds.cornell.edu/home/current-postdoctoral-fellows/), studying hummingbirds, with [Dr. Irby Lovette](https://ecologyandevolution.cornell.edu/irby-lovette) and [Dr. Maren Vitousek](https://ecologyandevolution.cornell.edu/maren-vitousek) at the Lab of Ornithology at Cornell University. Until August 2020, I was a Postdoctoral Fellow with [Dr. Cory Williams](http://www.corytwilliams.com/) at the University of Alaska at Fairbanks, where I studied seasonal depression (Seasonal Affective Disorder) in Nile grass rats. I graduated with a PhD in December 2018 from the department of Ecology and Evolution at Stony Brook University, New York where I worked with [Dr. Catherine Graham](https://www.wsl.ch/en/employees/graham.html) and [Dr. Don Powers](http://www.dpowerslab.com/) from George Fox University, studying how hummingbirds budget their energy across a number of sites in Arizona and Ecuador. And before that, I got a Master's from Pondicherry University, India, studying nesting hornbills in the Western Ghats, and a Bachelor's in Zoology and Biotech from Stella Maris College, Chennai, India. I am broadly interested in how animals manage their energetic needs. I love giving talks and communicating science, especially to the public (but also to scientists)! Have a talk idea or request? [Contact me!](mailto:anusha.shankar@cornell.edu)
@@ -30,7 +30,8 @@ My interests include: whole-animal physiology, ecology, respirometry, field phys
 </center>
 <br />
 
-**What I want to be when I grow up**: I have a PhD now, and I don't think I will/should ever stop searching for the answer to this question. But- I want to bring people together to solve big problems in animal ecology and conservation, especially in the tropics. Science is my way of making sense of my world using observation and logic, and I would like to share my passion for science with the world. I saw my PhD as one (long-ish) step on a path to learning the tools, methods, teaching and outreach skills to do science and share it with people of all kinds. Getting a peek into organizations like WWF and National Geographic has convinced me that there are many great people creating hope in this sometimes-bleak world. And the key to unleashing this hope is opening people's minds. Turning skeptics of science, slowly and steadily, into believers, involving local communities in conservation, and most importantly, growing children to be observers, doers, and scientists - no matter what profession they choose. People seem most influenced by a few key people in their past- we as scientists need to get better at being those key influencers.
+### What I want to be when I grow up
+I have a PhD, but I still don't think I will/should ever stop searching for the answer to this question. But- I want to bring people together to solve big problems in animal ecology and conservation, especially in the tropics. Science is my way of making sense of my world using observation and logic, and I would like to share my passion for science with the world. I saw my PhD as one (long-ish) step on a path to learning the tools, methods, teaching and outreach skills to do science and share it with people of all kinds. Getting a peek into organizations like WWF and National Geographic has convinced me that there are many great people creating hope in this sometimes-bleak world. And the key to unleashing this hope is opening people's minds. Turning skeptics of science, slowly and steadily, into believers, involving local communities in conservation, and most importantly, growing children to be observers, doers, and scientists - no matter what profession they choose. People seem most influenced by a few key people in their past- we as scientists need to get better at being those key influencers.
 
 I have a great interest in **science communication**- I think it is a shame for so much fascinating science to sit on dusty library shelves or in dusty internet blackholes. Here are some of the initiatives I am a part of, to either facilitate scientists being more transparent communicators, or to try being a better communicator myself:
 National Geographic Society - see the videos on the (outreach/videos)[https://anushashankar.weebly.com/outreachvideos.html] page and a [blog article](http://blog.nationalgeographic.org/2018/02/06/why-i-am-obsessed-with-hummingbird-pee-and-torpor/) on my research;
@@ -46,7 +47,7 @@ Crowd-funded [project](https://experiment.com/projects/do-hummingbirds-actually-
 Cover image of a green-crowned brilliant: Sean Graesser ([gourmetbiologist](https://www.instagram.com/gourmetbiologist/?hl=en))
 
 <center>
-![](JAV_51_5_Cover.jpg){width="30%"}
+![](Photos/JAV_51_5_Cover.jpg){width="30%"}
 
 
 <center>
